@@ -1,0 +1,46 @@
+<div class="food" id="food">
+  <div class="container">
+    <div class="section-header text-center">
+      <p>The Products</p>
+      <h2>Our Delicious Delights</h2>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-3 col-md-6" *ngFor="let cake of cakes">
+        <div class="food-item">
+          <img src="../../assets/img/cake.png" alt="Cake" class="" />
+          <h2>{{ cake.name }}</h2>
+          <button (click)="displayc(cake)">Order Now</button>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6" *ngFor="let cupcakes of cups">
+        <div class="food-item">
+          <img src="../../assets/img/cupcake.png" alt="Cupcakes" class="" />
+          <h2>{{ cupcakes.name }}</h2>
+          <button (click)="displaycc(cupcakes)">Order Now</button>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6" *ngFor="let cjars of jars">
+        <div class="food-item">
+          <img src="../../assets/img/jar.png" alt="Cake Jars" class="" />
+          <h2>{{ cjars.name }}</h2>
+          <button (click)="displayj(cjars)">Order Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="alert alert-secondary" role="alert">
+      <b>Cake Chosen!</b> <br />
+      cake name: {{ c.name }} <br />
+      cake price:{{ c.price }}
+    </div>
+    <div class="alert alert-secondary" role="alert">
+      <b>Cupcake choen!</b> <br />
+      cupcake name: {{ cc.name }} <br />
+      cupcake price:{{ cc.price }}
+    </div>
+    <div class="alert alert-secondary" role="alert">
+      <b>Cake jar chosen!</b> <br />
+      cake jar name: {{ cj.name }} <br />
+      cake jar price:{{ cj.price }}
+    </div>
+  </div>
+</div>

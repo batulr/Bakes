@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Rasmalai Cake",
+    "price": 750,
+    "qty": 500
+  },
+  {
+    "name": "Fruit Cake",
+    "price": 700,
+    "qty": 500
+  },
+  {
+    "name": "Black Forest",
+    "price": 650,
+    "qty": 500
+  },
+  {
+    "name": "Blueberry Cake",
+    "price": 600,
+    "qty": 500
+  }
+]
