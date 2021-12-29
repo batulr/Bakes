@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Vanilla CupCakes",
+    "price": 500,
+    "qty": 8
+  },
+  {
+    "name": "ChocoCookie",
+    "price": 600,
+    "qty": 8
+  },
+  {
+    "name": "Oreo CupCakes",
+    "price": 550,
+    "qty": 8
+  },
+  {
+    "name": "Brownie Cups",
+    "price": 600,
+    "qty": 8
+  }
+]

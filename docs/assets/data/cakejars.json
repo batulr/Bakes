@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Butterscotch Jar",
+    "price": 250,
+    "qty": 250
+  },
+  {
+    "name": "Rasmalai Jar",
+    "price": 300,
+    "qty": 250
+  },
+  {
+    "name": "Brownie Jar",
+    "price": 300,
+    "qty": 250
+  },
+  {
+    "name": "Strawberry Jar",
+    "price": 200,
+    "qty": 250
+  }
+]
